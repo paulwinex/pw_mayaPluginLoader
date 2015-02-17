@@ -10,6 +10,7 @@ import json
 
 appData = os.getenv('APPDATA')
 settingsFile = os.path.join(appData,'loadPluginSettings.json')
+mel.source('pluginWin.mel')
 
 class pluginLoaderClass(QMainWindow, ui.Ui_pluginLoader):
     def __init__(self):
