@@ -21,7 +21,7 @@ class pluginLoaderClass(QMainWindow, dialog_ui.Ui_pluginLoader):
         super(pluginLoaderClass, self).__init__(qMaya)
         self.setupUi(self)
         self.setObjectName('pluginLoaderWindow')
-        self.setWindowTitle('Plug-in loader v1.5 | PaulWinex')
+        self.setWindowTitle('Plug-in loader v1.6 | PaulWinex')
         self.executer, self.command_ted = self.getScriptEditor()
         self.scriptEditor_ly.addWidget(self.command_ted)
         self.eval_btn.setText('')
